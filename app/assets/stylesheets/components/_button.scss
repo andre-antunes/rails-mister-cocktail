@@ -1,0 +1,31 @@
+.my-btn {
+  background-color: white;
+  opacity: 0.9;
+  color: black;
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 0px;
+  border: 1px solid white;
+  transition: 0.5s ease;
+}
+
+.my-btn:hover {
+  text-decoration: none;
+  background-color: transparent;
+  color: white;
+
+}
+
+.my-btn-2 {
+  background-color: #958047;
+  color: white;
+  font-weight: 500;
+  padding: 10px 12px;
+  border-radius: 0px;
+  border: 1px solid black;
+}
+
+.my-btn-2:hover {
+  text-decoration: none;
+  color: #999;
+}

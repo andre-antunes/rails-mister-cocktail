@@ -1,0 +1,10 @@
+<%= simple_form_for [@cocktail, @cocktail.doses.build] do |f| %>
+  <%= f.error_notification %>
+  <%= f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present? %>
+
+  <%= f.association :ingredient, input_html: { class: "beautiful-dropdown" }, include_hidden: false %>
+  <%= f.input :description %>
+  <%= f.submit "add dose", class: "my-btn" %>
+  <% end %>
+
+
